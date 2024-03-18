@@ -30,5 +30,5 @@ function isValidSubsequence(array, sequence) {
   }
 
   const res = isValidSubsequence(array, sequence)
-  console.log("res")
+  console.log("isValidSubsequence")
   console.log(res)

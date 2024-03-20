@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:whileloop": "node whileloop.js",
-    "start:forloop": "node forloop.js"
+    "test": "jest",
+    "test:forloop": "jest src/forloop",
+    "start:whileloop": "node src/whileloop.js",
+    "start:forloop": "node src/forloop.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "jest": "^29.7.0"
+  }
 }

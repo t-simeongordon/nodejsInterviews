@@ -1,4 +1,4 @@
-import isValidSubsequence  from "../src/forloop"
+import { isValidSubsequence  } from "../src/forloop"
 
 describe('check validation for forloop', ()=>{
     beforeEach(()=>{

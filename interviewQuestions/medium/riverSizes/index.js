@@ -9,7 +9,7 @@ function riverSizes(matrix) {
         }
       }
     }
-  
+    console.log(sizes)
     return sizes;
   }
   

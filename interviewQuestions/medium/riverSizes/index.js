@@ -9,7 +9,6 @@ function riverSizes(matrix) {
         }
       }
     }
-    console.log(sizes)
     return sizes;
   }
   
@@ -39,7 +38,8 @@ function riverSizes(matrix) {
   
     // Explore right
     size += exploreSize(matrix, visited, row, col + 1);
-  
+    console.log("exploreSize: ", size)
+
     return size;
   }
   

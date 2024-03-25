@@ -35,10 +35,11 @@ function riverSizes(matrix) {
   
     // Explore left
     size += exploreSize(matrix, visited, row, col - 1);
-  
+    console.log("Explore left: ", size)
+
     // Explore right
     size += exploreSize(matrix, visited, row, col + 1);
-    console.log("exploreSize: ", size)
+    console.log("Explore right: ", size)
 
     return size;
   }
